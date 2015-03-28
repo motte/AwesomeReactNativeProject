@@ -94,19 +94,25 @@ var styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     justifyContent: 'center',
-    alignItems: 'center',
+    alignItems: 'stretch',
     backgroundColor: '#F5FCFF',
+    marginBottom: 7,
   },
   rightContainer: {
+    backgroundColor: '#FFFFFF',
     flex: 1,
+    paddingTop: 7,
+    paddingRight: 10,
+    paddingBottom: 7,
+    paddingLeft: 10,
   },
   title: {
     fontSize: 20,
     marginBottom: 8,
-    textAlign: 'center',
+    textAlign: 'left',
   },
   year: {
-    textAlign: 'center',
+    textAlign: 'left',
   },
   thumbnail: {
     width: 53,
